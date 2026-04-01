@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0fdf4;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #4ade80;
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #dcfce7;
+}
