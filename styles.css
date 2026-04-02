@@ -7,7 +7,7 @@ body {
 
 header {
   text-align: center;
-  padding: 40px;
+  padding: 50px;
   background: linear-gradient(to right, #e9d5ff, #bbf7d0);
 }
 
@@ -24,7 +24,7 @@ section {
 
 h2 {
   color: #9333ea;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .proyecto {
@@ -33,11 +33,12 @@ h2 {
   margin: 20px 0;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .proyecto:hover {
   transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .btn {
@@ -58,6 +59,7 @@ h2 {
 .caso {
   background: #ffffff;
   padding: 20px;
+  margin-top: 20px;
   border-left: 5px solid #a855f7;
   border-radius: 10px;
 }
