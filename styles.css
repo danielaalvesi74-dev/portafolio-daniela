@@ -27,6 +27,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* PROYECTOS */
 .proyecto {
   background: white;
   padding: 20px;
@@ -41,6 +42,7 @@ h2 {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+/* BOTONES */
 .btn {
   display: inline-block;
   margin-top: 10px;
@@ -56,14 +58,22 @@ h2 {
   background-color: #7e22ce;
 }
 
+/* CASOS DE ESTUDIO MÁS VISIBLES */
 .caso {
   background: #ffffff;
   padding: 20px;
-  margin-top: 20px;
-  border-left: 5px solid #a855f7;
+  margin-top: 25px;
+  border-left: 8px solid #a855f7;
   border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
+.caso h3 {
+  margin-top: 0;
+  color: #6b21a8;
+}
+
+/* LINKS */
 a {
   color: #7e22ce;
   text-decoration: none;
