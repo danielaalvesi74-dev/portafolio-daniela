@@ -44,3 +44,7 @@ h2 {
 .btn:hover {
   background-color: #9333ea;
 }
+.proyecto:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
